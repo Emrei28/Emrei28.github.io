@@ -1,0 +1,10 @@
+body{
+    background-image: url(img/LATAR2.jpg);
+    box-sizing: border-box;
+}
+.card-header{
+    background-color: #21dada;
+}
+.card-body{
+    background-color: #dfeeee;
+}
