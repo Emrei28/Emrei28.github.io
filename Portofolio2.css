@@ -62,7 +62,7 @@ section{
     animation: ZoomInOut 2s ease-in-out infinite;
 
 }
-#about:hover .container .row p { 
+/* #about:hover .container .row p { 
     animation: LeftIn 1s ;
 }
 #Pendidikan:hover .container .timeline{
@@ -76,7 +76,7 @@ section{
 }
 #projects:hover .container .card{
     animation: LeftIn 1s ;
-}
+} */
 
 @keyframes ZoomInOut{
     0% {transform: scale(1);}
