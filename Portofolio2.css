@@ -62,32 +62,3 @@ section{
     animation: ZoomInOut 2s ease-in-out infinite;
 
 }
-/* #about:hover .container .row p { 
-    animation: LeftIn 1s ;
-} */
-/* #Pendidikan:hover .container .timeline{
-    animation: LeftIn 1s ;
-}
-#Pengalaman:hover .container .timeline{
-    animation: LeftIn 1s ;
-}
-#skills:hover .container .col-md-4{
-    animation: LeftIn 1s ;
-}
-#projects:hover .container .card{
-    animation: LeftIn 1s ;
-} */
-
-@keyframes ZoomInOut{
-    0% {transform: scale(1);}
-    50% {transform: scale(1.2);}
-    100%{transform: scale(1);}
-}
-@keyframes LeftIn{
-    0%{
-        transform: scale(0);
-    }
-    100%{
-        transform: scale(1);
-    }
-}
