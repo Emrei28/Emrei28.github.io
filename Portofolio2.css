@@ -14,7 +14,8 @@
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important; /* Ikon hitam */
     width: 1.5em;
     height: 1.5em;
-  }
+  }   
+  
 .jumbotron{
     background-color: #dfeeee;
     padding-top: 80px;
@@ -70,25 +71,44 @@ section{
     animation: ZoomInOut 2s ease-in-out infinite;
 
 }
+/* #about:hover .container .row p { 
+    animation: LeftIn 1s ;
+} */
+/* #Pendidikan:hover .container .timeline{
+    animation: LeftIn 1s ;
+}
+#Pengalaman:hover .container .timeline{
+    animation: LeftIn 1s ;
+}
+#skills:hover .container .col-md-4{
+    animation: LeftIn 1s ;
+}
+#projects:hover .container .card{
+    animation: LeftIn 1s ;
+} */
+
+@keyframes ZoomInOut{
+    0% {transform: scale(1);}
+    50% {transform: scale(1.2);}
+    100%{transform: scale(1);}
+}
+@keyframes LeftIn{
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
 
 
-@media (max-width: 768px) {
+@media (max-width: 320px) {
     html {
       font-size: 65%;
     }
     .nav shadow {
       font-size: 2rem;
       text-align: center;
+      height: 100px;
     }
-}
-
-@media (max-width: 576px) {
-    html {
-      font-size: 60%;
-    }
-    .nav shadow{
-      font-size: 1rem;
-      text-align: center;
-    }
-
 }
